@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>На горячее — лента рецептов и видео</title>
+<meta name="description" content="Лента рецептов от независимых авторов, видео с приготовлением и подсказка, где купить продукты для блюда.">
+<style>
+:root {
+  --bg: #fffdfa;
+  --fg: #23201c;
+  --muted: #6b645c;
+  --accent: #c2410c;
+  --line: #e8e0d6;
+  --card: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17150f;
+    --fg: #ece7df;
+    --muted: #a39a8e;
+    --accent: #fb923c;
+    --line: #2f2a22;
+    --card: #1e1b15;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+header { border-bottom: 1px solid var(--line); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+.brand { font-size: 1.35rem; font-weight: 700; letter-spacing: -0.01em; color: var(--fg); text-decoration: none; }
+.brand span { color: var(--accent); }
+h1 { font-size: 1.75rem; line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 0.5rem; }
+h2 { font-size: 1.15rem; margin: 2.25rem 0 0.75rem; letter-spacing: -0.01em; }
+h3 { font-size: 1rem; margin: 1.5rem 0 0.5rem; }
+p, li { color: var(--fg); }
+ul { padding-left: 1.25rem; }
+li { margin: 0.35rem 0; }
+a { color: var(--accent); }
+.lead { font-size: 1.05rem; color: var(--muted); }
+.meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 2rem; }
+.links { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 2rem 0 0; padding: 0; list-style: none; }
+.links a {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--card);
+  text-decoration: none;
+  font-weight: 500;
+}
+footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+footer a { color: var(--muted); }
+@media (max-width: 30rem) {
+  .wrap { padding: 1.75rem 1rem 3rem; }
+  h1 { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="index.html">На <span>горячее</span></a></header>
+
+<h1>Самое свежее и обсуждаемое — на горячее</h1>
+<p class="lead">Лента рецептов от независимых авторов, видео с приготовлением и подсказка, где купить продукты для блюда.</p>
+
+<p>Мы сделали приложение для тех, кто не ищет рецепт по списку, а хочет видеть, что готовят прямо сейчас: свежие публикации, короткие видео с приготовлением и понятные шаги, по которым получается с первого раза. Рецепты ведут обычные люди, которые готовят дома каждый день, — подписывайтесь на тех, чей подход вам ближе, и собирайте свою ленту.</p>
+
+<p>Сохраняйте рецепты, чтобы вернуться к ним вечером, и публикуйте свои. А если чего-то не хватает — откройте карту продуктовых магазинов и пекарен рядом с вами: адрес, расстояние и время пешком.</p>
+
+<h2>Поддержка</h2>
+<p>Вопрос или предложение — напишите на <a href="mailto:support@nagoryachee.app">support@nagoryachee.app</a>. Отвечаем в течение трёх рабочих дней.</p>
+<p>Если вы увидели в приложении публикацию, которая нарушает правила, напишите на тот же адрес с пометкой «жалоба» — такие обращения мы разбираем в течение суток и удаляем материал, если нарушение подтвердилось.</p>
+<p>Чтобы удалить учётную запись вместе со всеми данными, напишите нам с адреса, на который она зарегистрирована.</p>
+
+<h2>Документы</h2>
+<ul class="links">
+<li><a href="privacy.html">Политика конфиденциальности</a></li>
+<li><a href="terms.html">Пользовательское соглашение</a></li>
+</ul>
+
+<footer>ООО «Горячий стол», 123001, г. Москва, ул. Садовая, д. 5, офис 12<br>Почта: <a href="mailto:support@nagoryachee.app">support@nagoryachee.app</a></footer>
+</div>
+</body>
+</html>
